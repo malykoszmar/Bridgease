@@ -1,0 +1,124 @@
+html {
+    background-color: rgb(173, 216, 230);
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans_Condensed-Regular.ttf);
+}
+
+.topBar {
+    font-family: "OpenSans";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    margin-top: 0;
+}
+
+.navBar {
+    background-color: rgb(147, 200, 209);
+    border-radius: 5rem;
+    width: auto;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.logo {
+    border-radius: 5rem;
+    padding: 1.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    font-family: "RacingSansOne";
+}
+
+@font-face {
+    font-family: RacingSansOne ;
+    src: url(RacingSansOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Allan-Bold ;
+    src: url(Allan-Bold.ttf);
+
+}
+.mottoContainer {
+    text-align: center;
+    border-color: rgb(121, 121, 121);
+    background-color: rgb(141, 197, 199);
+    margin: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    font-family: "Allan-Bold";
+}
+
+
+
+.pictureContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.footer {
+    background-color: rgb(148, 148, 148);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer p, .footer a {
+    margin-left: 4rem;
+}
+
+.textboxContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+.textBox {
+    width: 3rem;
+    margin-left: 0;
+    border-radius: 1rem;
+    background-color: rgb(95, 95, 95);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.pageTitleContainer {
+    font-family: "OpenSans";
+    text-align: center;
+    padding: 1rem;
+    margin: 4rem;
+    background-color: aliceblue;
+}
