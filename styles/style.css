@@ -63,6 +63,7 @@ body {
     src: url(Allan-Bold.ttf);
 
 }
+
 .mottoContainer {
     text-align: center;
     border-color: rgb(121, 121, 121);
@@ -72,9 +73,8 @@ body {
     padding-bottom: 1rem;
     font-size: 2.5rem;
     font-family: "Allan-Bold";
+    animation: 1s ease-out 0s 1 slideIn;
 }
-
-
 
 .pictureContainer {
     display: flex;
@@ -82,6 +82,7 @@ body {
     gap: 1rem;
     justify-content: center;
     margin: 2rem;
+    animation: 1s ease-out 0s 1 slideIn;
 }
 
 .footer {
@@ -122,3 +123,27 @@ body {
     margin: 4rem;
     background-color: aliceblue;
 }
+
+.imageContainer {
+    overflow: hidden;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+.imageContainer img {
+    object-fit: cover;
+    transition: transform 800ms;
+}
+
+img:hover{
+    transform: scale(110%);
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
