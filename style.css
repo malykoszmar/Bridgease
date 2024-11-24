@@ -47,10 +47,7 @@ body {
     padding: 1.5rem;
     padding-left: 8rem;
     padding-right: 8rem;
-    border-color: rgb(206, 206, 206);
-    border: 0.1rem solid;
     font-weight: 700;
-    background-color: rgb(151, 151, 151);
     color: rgb(0, 0, 0);
     font-size: 4rem;
 }
