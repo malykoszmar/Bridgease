@@ -50,6 +50,12 @@ body {
     font-weight: 700;
     color: rgb(0, 0, 0);
     font-size: 4rem;
+    font-family: "RacingSansOne";
+}
+
+@font-face {
+    font-family: RacingSansOne ;
+    src: url(RacingSansOne-Regular.ttf);
 }
 
 .mottoContainer {
@@ -60,6 +66,8 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+
 
 .pictureContainer {
     display: flex;
