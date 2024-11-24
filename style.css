@@ -28,14 +28,25 @@ body {
     height: 2rem;
     display: flex;
     flex-direction: row;
+    text-align: center;
     gap: 2rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
+.navBar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
 .logo {
-    padding: 1rem;
+    border-color: rgb(206, 206, 206);
+    border: 0.1rem solid;
+    font-weight: 700;
+    padding: 0rem;
     padding-left: 2rem;
     padding-right: 2rem;
     background-color: rgb(151, 151, 151);
