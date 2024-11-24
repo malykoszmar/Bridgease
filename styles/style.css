@@ -102,3 +102,11 @@ body {
     padding-bottom: 1rem;
     text-align: center;
 }
+
+.pageTitleContainer {
+    font-family: "OpenSans";
+    text-align: center;
+    padding: 1rem;
+    margin: 4rem;
+    background-color: aliceblue;
+}

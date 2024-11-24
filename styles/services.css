@@ -1,0 +1,13 @@
+.servicesBoxContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.servicesBox {
+    border: 1rem solid rgb(132, 200, 255);
+    padding: 1rem;
+}
