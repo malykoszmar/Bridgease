@@ -58,6 +58,11 @@ body {
     src: url(RacingSansOne-Regular.ttf);
 }
 
+@font-face {
+    font-family: Allan-Bold ;
+    src: url(Allan-Bold.ttf);
+
+}
 .mottoContainer {
     text-align: center;
     border-color: rgb(121, 121, 121);
@@ -65,6 +70,8 @@ body {
     margin: 8rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    font-size: 2.5rem;
+    font-family: "Allan-Bold";
 }
 
 
