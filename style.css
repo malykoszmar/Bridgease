@@ -28,26 +28,27 @@ body {
     height: 2rem;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    gap: 5rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .logo {
-    padding: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    border-radius: 5rem;
+    padding: 1.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     background-color: rgb(151, 151, 151);
     color: rgb(0, 0, 0);
+    font-size: 4rem;
 }
 
 .mottoContainer {
     text-align: center;
-    border-color: rgb(206, 206, 206);
-    border: 0.1rem solid;
-    background-color: rgb(206, 206, 206);
-    margin: 4rem;
+    border-color: rgb(121, 121, 121);
+    background-color: rgb(141, 197, 199);
+    margin: 8rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
