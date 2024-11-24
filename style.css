@@ -6,7 +6,13 @@ body {
     margin: 0;
 }
 
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans_Condensed-Regular.ttf);
+}
+
 .topBar {
+    font-family: "OpenSans";
     display: flex;
     flex-direction: row;
     justify-content: space-between;
