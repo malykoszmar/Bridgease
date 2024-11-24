@@ -5,6 +5,7 @@
     padding-bottom: 1rem;
     margin: 1rem;
     line-height: 1.5rem;
+    animation: 1s ease-out 0s 1 slideIn;
 }
 
 .linksContainer h3 {
@@ -21,4 +22,5 @@
     margin: 1rem;
     padding: 1rem;
     background-color: aliceblue;
+    animation: 1s ease-out 0s 1 slideIn;
 }
