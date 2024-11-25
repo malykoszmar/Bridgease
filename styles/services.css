@@ -9,6 +9,7 @@
 
 .servicesBox {
     border: 1rem solid rgb(132, 200, 255);
+    background-color: rgb(226, 226, 226);
     padding: 1rem;
     animation: 1s ease-out 0s 1 slideIn;
 }
